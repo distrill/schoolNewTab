@@ -46,4 +46,36 @@ html, body {
       color: black;
       background-image: linear-gradient(to right, red, #f06d06); }
 
+.bottom-links {
+  width: 70%;
+  position: absolute;
+  bottom: 0;
+  left: 15%; }
+  .bottom-links ul {
+    list-style: none;
+    font-size: 0; }
+    .bottom-links ul li {
+      color: #e6e6e6;
+      text-align: center;
+      font-size: 1rem;
+      display: inline-block;
+      width: 20%;
+      border: solid 1px #282c34; }
+      .bottom-links ul li:hover {
+        color: black;
+        background: #e6e6e6;
+        border: solid 1px black; }
+
+.nothing {
+  position: absolute;
+  bottom: 0;
+  width: 15%;
+  height: 15%; }
+
+.left {
+  left: 0; }
+
+.right {
+  right: 0; }
+
 /*# sourceMappingURL=stylesheet.css.map */
